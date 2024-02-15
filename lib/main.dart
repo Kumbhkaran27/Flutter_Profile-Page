@@ -25,7 +25,6 @@ class ProfilePage extends StatelessWidget {
                   sex: 'Male',
                   age: 19,
                 ),
-               
 
                 // Second table with education and hometown
                 SizedBox(height: 20), // Adding  space between tables
@@ -34,8 +33,17 @@ class ProfilePage extends StatelessWidget {
                   hometown: 'Foosha Village',
                 ),
 
-                Hobbies_Table(
-
+                // Hobbies table
+                SizedBox(height: 20), // Adding space between tables
+                HobbiesTable(
+                  hobbies: [
+                    Hobby(name: 'Sailing', imageUrl: 'assets/images/Sailing.png'),
+                    Hobby(name: 'Fishing', imageUrl: 'assets/images/Fishing.png'),
+                    Hobby(name: 'Foodie', imageUrl: 'assets/images/food.png'),
+                    Hobby(name: 'Straw Hat', imageUrl: 'assets/images/Hat.jpg'),
+                    Hobby(name: 'Fighting', imageUrl: 'assets/images/Fight.jpeg'),
+                    Hobby(name: 'Exploring', imageUrl: 'assets/images/Explore.png'),
+                  ],
                 ),
               ],
             ),
@@ -46,8 +54,70 @@ class ProfilePage extends StatelessWidget {
   }
 }
 
-class Hobbies_Table extends StatelessWidget {
-  
+class Hobby {
+  final String name;
+  final String imageUrl;
+
+  Hobby({required this.name, required this.imageUrl});
+}
+
+class HobbiesTable extends StatelessWidget {
+  final List<Hobby> hobbies;
+
+  HobbiesTable({required this.hobbies});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Hobbies/Likes',
+          style: TextStyle(
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        SizedBox(height: 10.0),
+        Table(
+          border: TableBorder.all(),
+          children: _buildTableRows(),
+        ),
+      ],
+    );
+  }
+
+  List<TableRow> _buildTableRows() {
+    List<TableRow> rows = [];
+
+    for (int i = 0; i < hobbies.length; i += 3) {
+      List<Widget> cells = [];
+
+      for (int j = i; j < i + 3 && j < hobbies.length; j++) {
+        cells.add(
+          TableCell(
+            child: Column(
+              children: [
+                CircleAvatar(
+                  radius: 30,
+                  backgroundImage: AssetImage(hobbies[j].imageUrl),
+                ),
+                SizedBox(height: 5),
+                Text(
+                  hobbies[j].name,
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+        );
+      }
+
+      rows.add(TableRow(children: cells));
+    }
+
+    return rows;
+  }
 }
 
 class ProfileTable extends StatelessWidget {
@@ -71,7 +141,7 @@ class ProfileTable extends StatelessWidget {
         children: [
           Container(
             width: 100.0, //image size controls
-            height: 100.0, 
+            height: 100.0,
             decoration: BoxDecoration(
               shape: BoxShape.rectangle,
               image: DecorationImage(
@@ -136,14 +206,16 @@ class EducationAndHometownTable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Table(
-      
       children: [
         TableRow(
           children: [
             TableCell(
               child: Padding(
                 padding: EdgeInsets.all(8.0),
-                child: Text('Education :',style: TextStyle(fontWeight: FontWeight.bold),),
+                child: Text(
+                  'Education :',
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
               ),
             ),
             TableCell(
@@ -159,7 +231,10 @@ class EducationAndHometownTable extends StatelessWidget {
             TableCell(
               child: Padding(
                 padding: EdgeInsets.all(8.0),
-                child: Text('Hometown : ',style: TextStyle(fontWeight: FontWeight.bold),),
+                child: Text(
+                  'Hometown : ',
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
               ),
             ),
             TableCell(

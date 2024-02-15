@@ -1,0 +1,153 @@
+Source,Target,Type,Question Title,Question ID,Answer ID,Answer Score
+77991640,,Question,Improve query performance for SAP LMS API call that requires individual ID per call,77991640,,
+77048694,,Question,Is it intended that a BAC0 COV pings every 5 seconds even when there&#39;s no change?,77048694,,
+77991655,,Answer,,,77991655,0
+77048694,77991655,Undirected,,,77991655,0
+77984962,,Question,Dropdown box in flask not showing values,77984962,,
+77986276,,Question,Maya UI for browsing assets failing to propagate multiple lists?,77986276,,
+77991428,,Question,Python(Flask)-Method Not Allowed The method is not allowed for the requested URL,77991428,,
+77991650,,Answer,,,77991650,0
+77991428,77991650,Undirected,,,77991650,0
+77991631,,Question,I am planning to create artificial neuron,77991631,,
+77991647,,Answer,,,77991647,-2
+77991631,77991647,Undirected,,,77991647,-2
+9087158,,Question,Amazon SES SMTP Python Usage,9087158,,
+12358203,,Answer,,,12358203,13
+9087158,12358203,Undirected,,,12358203,13
+9362360,,Answer,,,9362360,8
+9087158,9362360,Undirected,,,9362360,8
+9087295,,Answer,,,9087295,6
+9087158,9087295,Undirected,,,9087295,6
+69680624,,Answer,,,69680624,4
+9087158,69680624,Undirected,,,69680624,4
+77991643,,Answer,,,77991643,0
+9087158,77991643,Undirected,,,77991643,0
+59654172,,Question,I keep getting an Assertion Error with StyleGAN,59654172,,
+59654686,,Answer,,,59654686,4
+59654172,59654686,Undirected,,,59654686,4
+59654300,,Answer,,,59654300,2
+59654172,59654300,Undirected,,,59654300,2
+69025116,,Answer,,,69025116,-1
+59654172,69025116,Undirected,,,69025116,-1
+77991638,,Question,Why is pytube acting up?,77991638,,
+77991629,,Question,Telegram Bot errore su updater,77991629,,
+77991581,,Question,How to find repeating words in an excel document,77991581,,
+77991617,,Question,Visualizing LFW Dataset with PCA: Plotting Face Images Instead of Points for Enhanced Pattern Analysis,77991617,,
+77991608,,Question,My VSCode produces the exact same output in the terminal regardless of what code I run. The output is from previous code I have worked on,77991608,,
+77991049,,Question,Is there a way to print a formatted dictionary to a Python log file?,77991049,,
+77991591,,Answer,,,77991591,1
+77991049,77991591,Undirected,,,77991591,1
+76522693,,Question,How to check the validity of the OpenAI key from python?,76522693,,
+76522820,,Answer,,,76522820,4
+76522693,76522820,Undirected,,,76522820,4
+77297937,,Answer,,,77297937,4
+76522693,77297937,Undirected,,,77297937,4
+77814220,,Answer,,,77814220,2
+76522693,77814220,Undirected,,,77814220,2
+77146397,,Answer,,,77146397,1
+76522693,77146397,Undirected,,,77146397,1
+76523513,,Answer,,,76523513,0
+76522693,76523513,Undirected,,,76523513,0
+77991594,,Answer,,,77991594,0
+76522693,77991594,Undirected,,,77991594,0
+77982289,,Question,Scikit-learn Gaussian Process Regressor returns 2d vector instead of 2d Covariance matrix,77982289,,
+77991579,,Question,How to fix IndexError from QGIS Weights of Evidence (WofE) plugin?,77991579,,
+77988820,,Question,Optimization custom column tranformation implementation,77988820,,
+77989349,,Answer,,,77989349,0
+77988820,77989349,Undirected,,,77989349,0
+77988922,,Question,Improve Logistic regression with sklearn,77988922,,
+77989150,,Answer,,,77989150,2
+77988922,77989150,Undirected,,,77989150,2
+77991564,,Question,Python Debugger No Longer Running in Old Scripts in VS Code,77991564,,
+77990840,,Question,How to speed up loops of numpy array calculations,77990840,,
+77991562,,Answer,,,77991562,0
+77990840,77991562,Undirected,,,77991562,0
+77972106,,Question,Downloading a leaflet/arcgis map as a KML file,77972106,,
+77989093,,Question,&quot;isinstance() and not&quot; vs &quot;==&quot; for checking x=(),77989093,,
+77989337,,Answer,,,77989337,2
+77989093,77989337,Undirected,,,77989337,2
+77989446,,Answer,,,77989446,2
+77989093,77989446,Undirected,,,77989446,2
+77991554,,Question,How is ContiguousSelection mode set in QListWiget using Python?,77991554,,
+77438251,,Question,Langchain ParentDocumetRetriever: Save and load,77438251,,
+77453186,,Answer,,,77453186,0
+77438251,77453186,Undirected,,,77453186,0
+77865835,,Answer,,,77865835,0
+77438251,77865835,Undirected,,,77865835,0
+77991521,,Answer,,,77991521,0
+77438251,77991521,Undirected,,,77991521,0
+6011235,,Question,"Run a program from python, and have it continue to run after the script is killed",6011235,,
+77991512,,Question,How do I send a modal after a deferred button call in Pycord?,77991512,,
+77938155,,Question,Acknowledged kombu message is not removed from RabbitMQ queue,77938155,,
+77991490,,Question,Generate a new column in pandas DataFrame that contains data from a DIFFERENT row,77991490,,
+77991484,,Question,TuriCreate Install Issues,77991484,,
+77991483,,Question,Free Python bot hosting ? replit - codesandbox,77991483,,
+77985008,,Question,"How to migrate from python 2.7 urllib2.Request to python 3.10 urllib.requests.Request, and encode data in a compatible way?",77985008,,
+77990278,,Question,Issues Creating a PDF Generator in Python,77990278,,
+77991468,,Question,numpy- Make an array of 2&#39;s,77991468,,
+71754258,,Question,Huggingface Transformers Conda Install issue,71754258,,
+77991448,,Question,How to select the first N elements of each row in a df column (of arrays)?,77991448,,
+29354841,,Question,How can I stop my python script when another python script is running?,29354841,,
+77991460,,Question,What&#39;s the difference between loading the dataset using pandas and using tensorflow?,77991460,,
+76889691,,Question,Django tenants can&#39;t delete record from a shared model that has FK in tenant from public schema,76889691,,
+77991341,,Question,how to import big data of .dat foramt in a fast way with python?,77991341,,
+77991471,,Question,Play a video with ffmpeg and SDL2 on a Raspberry Pi 5,77991471,,
+77991106,,Question,Fill DataFrame column value with value from parent row,77991106,,
+77991245,,Question,NVIDIA CUDA drivers older than ptxas,77991245,,
+77991137,,Question,python SSL error c:1000 using boto3 to connect to AWS,77991137,,
+77991443,,Question,RLLib Rendering,77991443,,
+77385587,,Question,Persist ParentDocumentRetriever of langchain,77385587,,
+77984729,,Question,ImportError: cannot import name &#39;VectorStoreIndex&#39; from &#39;llama_index&#39; (unknown location),77984729,,
+77991435,,Question,Remove all children from scrollable frame in CustomTkinter,77991435,,
+77990956,,Question,Finding First and Last Values of a &quot;Run&quot; in Pandas,77990956,,
+77991422,,Question,Is it possible to update the model from the database in SQLAlchemy?,77991422,,
+77991419,,Question,VSCode Does Not Recognize Any Modules,77991419,,
+72212619,,Question,Confluent kafka python API - how to get number of partitions in a topic,72212619,,
+77990930,,Question,How to refer globally to a object created in a function?,77990930,,
+77991125,,Question,How can I stretch a list to be filled with its existing values distributed proportionally?,77991125,,
+77991373,,Question,Identification by Dispersion Threshold for fixations does not output all fixations,77991373,,
+11548674,,Question,logging.info doesn&#39;t show up on console but warn and error do,11548674,,
+77984857,,Question,Paho MQTT &#39;Unsupported callback API version&#39; error,77984857,,
+77985758,,Question,Why is my postfix evalutation function not working?,77985758,,
+55888243,,Question,How to distribute a list of a model into rows and colunms depending on the screen size in django?,55888243,,
+77991339,,Question,3D interpolation of data in python limiting the fitted function to only be increasing in z,77991339,,
+75541533,,Question,Problem to stop a STEPPER MOTOR (same button start and stop) while running by using PYTHON GUI IN RASPBERRY PI 3B+,75541533,,
+70752239,,Question,"IndexError: too many indices for array: array is 0-dimensional, but 2 were indexed",70752239,,
+53362582,,Question,How to write unit tests for a function using dbus to get information from Spotify?,53362582,,
+77990149,,Question,Issue downloading Links that end with .zip,77990149,,
+77991214,,Question,hashlib.sha256 returns different results on Linux,77991214,,
+76490817,,Question,Stepper motor isn&#39;t running with Raspberry pi 4 and drv8825,76490817,,
+77991264,,Question,IBM NeuralSeek API Filter,77991264,,
+77991272,,Question,"Only &#39;pwd.db&#39; gets updated, the other 2 are ignored",77991272,,
+77761995,,Question,Control Multiple Stepper Motors with Raspberry Pi 3?,77761995,,
+49617178,,Question,Word file to json in python,49617178,,
+77990385,,Question,Complex C++ lifetime issue in python bindings between C++ and numpy,77990385,,
+77977433,,Question,Authorize.net accept.js python E0007 - User authentication failed due to invalid authentication values,77977433,,
+77990083,,Question,Using the piecewise function in the objective function of the IBM CPLEX python API,77990083,,
+77990641,,Question,Trying to find a way to interpolate a big chunk of data,77990641,,
+77991240,,Question,How to minimize the hitbox without affecting image in pygame,77991240,,
+11940971,,Question,Changing fontsize of colorbar labels in healpy.mollview(),11940971,,
+77990870,,Question,Pylint in VSCode is not reading the configuration in settings.json,77990870,,
+82831,,Question,How do I check whether a file exists without exceptions?,82831,,
+14173007,,Question,Polynomial with modular coefficients library in python,14173007,,
+77991195,,Question,Why does my input print statement in while loop print None before taking input?,77991195,,
+77984737,,Question,Python socket servers don&#39;t see abrupt disconnect when using docker network,77984737,,
+77991172,,Question,Unable to use exec() python function in a python module hosted using a docker container,77991172,,
+77974108,,Question,OpenTimelineIO error from exporting a Final Cut Pro file with the Kdenlive adapter,77974108,,
+77990939,,Question,Unable to install packages in virtual environment VS Code,77990939,,
+47493559,,Question,"ValueError: non-broadcastable output operand with shape (3,1) doesn&#39;t match the broadcast shape (3,4)",47493559,,
+77991151,,Question,how to collect information of this json file through django?,77991151,,
+77990969,,Question,Array value must start with &quot;{&quot; or dimension information when excute_values to jsonb column,77990969,,
+77978592,,Question,"In PyCharm, without admin rights, I can’t select an interpreter in wsl2",77978592,,
+77943349,,Question,How to make primary and secondary y-axes ticks look parallel and change the color of the border of the figure?,77943349,,
+59979354,,Question,What is the difference between numpy.fft.fft and numpy.fft.fftfreq,59979354,,
+7225900,,Question,How can I install packages using pip according to the requirements.txt file from a local directory?,7225900,,
+77990917,,Question,Get indices of matrix from upper triangle without numpy,77990917,,
+33419337,,Question,Rewrite SOAP xml before sen it as request,33419337,,
+77932055,,Question,pikepdf to disable pdf content accessibility enabled,77932055,,
+77988098,,Question,Add custom seasonality in prophet model,77988098,,
+77990744,,Question,pypdf/PyPDF2: Unwanted character substitution in links,77990744,,
+75968407,,Question,In pandas getting error &#39;int&#39; object has no attribute &#39;index&#39; when try to color few value of a column of a dataframe using style.applymap(),75968407,,
+77991044,,Question,SyntaxError: unterminated string literal (when trying raw string),77991044,,
+77990871,,Question,Search a string and print the line if it found in python,77990871,,
+75960549,,Question,pyiceberg : 403 Forbidden Error with Glue Catalog,75960549,,
