@@ -27,7 +27,7 @@ class ProfilePage extends StatelessWidget {
                 ),
 
                 // Second table with education and hometown
-                SizedBox(height: 20), // Adding  space between tables
+                SizedBox(height: 20), // Adding space between tables
                 EducationAndHometownTable(
                   education: 'Bachelor of Piracy',
                   hometown: 'Foosha Village',
@@ -45,12 +45,86 @@ class ProfilePage extends StatelessWidget {
                     Hobby(name: 'Exploring', imageUrl: 'assets/images/Explore.png'),
                   ],
                 ),
+
+                // Achievements table
+                SizedBox(height: 20), // Adding space between tables
+                AchievementsTable(
+                  achievements: [
+                    Achievement(name: 'Unlocking Gear Fifth', imageUrl: 'assets/images/Gear5.png'),
+                    Achievement(name: 'Mastering Advanced Conquerors Haki In A Night', imageUrl: 'assets/images/Haki.png'),
+                    Achievement(name: 'Getting A Rookies Recognition From Whitebeard', imageUrl: 'assets/images/Rookie.png'),
+                  ],
+                ),
               ],
             ),
           ),
         ),
       ),
     );
+  }
+}
+
+class Achievement {
+  final String name;
+  final String imageUrl;
+
+  Achievement({required this.name, required this.imageUrl});
+}
+
+class AchievementsTable extends StatelessWidget {
+  final List<Achievement> achievements;
+
+  AchievementsTable({required this.achievements});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Text(
+          'Achievements',
+          style: TextStyle(
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        SizedBox(height: 10.0),
+        Column(
+          children: _buildRows(),
+        ),
+      ],
+    );
+  }
+
+  List<Widget> _buildRows() {
+    List<Widget> rows = [];
+
+    for (var achievement in achievements) {
+      rows.add(
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Image.asset(
+                achievement.imageUrl,
+                width: 280, // Adjust width as needed
+                height: 120, // Adjust height as needed
+                fit: BoxFit.cover,
+              ),
+              SizedBox(height: 5),
+              Text(
+                achievement.name,
+                textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+
+    return rows;
   }
 }
 
@@ -98,9 +172,11 @@ class HobbiesTable extends StatelessWidget {
           TableCell(
             child: Column(
               children: [
-                CircleAvatar(
-                  radius: 30,
-                  backgroundImage: AssetImage(hobbies[j].imageUrl),
+                Image.asset(
+                  hobbies[j].imageUrl,
+                  width: 60, // Adjust width as needed
+                  height: 60, // Adjust height as needed
+                  fit: BoxFit.cover,
                 ),
                 SizedBox(height: 5),
                 Text(
@@ -186,8 +262,10 @@ class ProfileHeading extends StatelessWidget {
       child: const Text(
         'MINGLE',
         style: TextStyle(
-          fontSize: 24.0,
+          fontSize: 36.0,
+          
           fontWeight: FontWeight.bold,
+          color: Colors.red,
         ),
       ),
     );
