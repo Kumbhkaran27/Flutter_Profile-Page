@@ -38,8 +38,8 @@ class AchievementsTable extends StatelessWidget {
             children: [
               Image.asset(
                 achievement.imageUrl,
-                width: 280, // Adjust width as needed
-                height: 120, // Adjust height as needed
+                width: 400, // Adjust width as needed
+                height: 200, // Adjust height as needed
                 fit: BoxFit.cover,
               ),
               SizedBox(height: 5),

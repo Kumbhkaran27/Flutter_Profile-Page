@@ -55,9 +55,9 @@ class ProfilePage extends StatelessWidget {
                   SizedBox(height: 20), // Adding space between tables
                   AchievementsTable(
                     achievements: [
-                      Achievement(name: 'Unlocking Gear Fifth', imageUrl: 'assets/images/Gear5.png'),
-                      Achievement(name: 'Mastering Advanced Conquerors Haki In A Night', imageUrl: 'assets/images/Haki.png'),
-                      Achievement(name: 'Getting A Rookies Recognition From Whitebeard', imageUrl: 'assets/images/Rookie.png'),
+                      Achievement(name: 'Unlocking Gear Fifth', imageUrl: 'assets/images/Gear5.jpeg'),
+                      Achievement(name: 'Mastering Advanced Conquerors Haki In A Night', imageUrl: 'assets/images/Haki.jpeg'),
+                      Achievement(name: 'Getting A Rookies Recognition From Whitebeard', imageUrl: 'assets/images/Rookie.jpeg'),
                     ],
                   ),
                 ],
