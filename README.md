@@ -83,10 +83,3 @@ The scrollable layout ensures the content fits all screen sizes.
 
 Images and text are arranged using Row/Column combined with Container + spacing.
 
-📂 Folder Structure
-/lib
-  main.dart                       # App entry point
-  models/                         # Data models (e.g., user profile)
-  screens/                       # UI screen widgets
-  widgets/                       # Reusable UI components
-/assets/images                  # Profile pictures and icons
